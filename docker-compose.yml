@@ -1,0 +1,6 @@
+﻿services:
+  distributedcache.api:
+    image: distributedcache.api
+    build:
+      context: .
+      dockerfile: DistributedCache.API/Dockerfile
